@@ -7,4 +7,4 @@ class PenguinSerializer(ModelSerializer):
 
     class Meta:
         model = Penguin
-        fields = 'id', 'user', 'name', 'description'
+        fields = 'id', 'user', 'name', 'species', 'description'
