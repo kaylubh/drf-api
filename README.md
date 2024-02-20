@@ -4,13 +4,15 @@
 
 ### Author: [Caleb Hemphill](https://github.com/kaylubh)
 
-A small project to demonstrate how to used Django and Django REST Framework to set up a web API.
+A small project to demonstrate how to used Django and Django REST Framework to set up a web API. Deployed in a local Docker container.
 
 ### Setup
 
-#### Requirements
+#### Requirements - Run
 
-1. Install [Python](https://www.python.org/) if not already
+1. Ensure Docker Desktop is installed and running
+
+#### Requirements - Develop / Test
 
 1. Create and activate a virtual environment
 
@@ -26,7 +28,7 @@ A small project to demonstrate how to used Django and Django REST Framework to s
 
 #### Run
 
-1. Run `python manage.py runserver` from root of project directory in order to interact with the API
+1. Run `docker compose up` from root of project directory in order to interact with the API
 
 1. In a browser navigate to: `http://localhost:8000/api/v1/penguins/`
 
